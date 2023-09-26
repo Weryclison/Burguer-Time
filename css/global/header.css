@@ -11,7 +11,7 @@
   justify-content: space-between;
   padding-top: 20px;
 
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .header ul {
   display: flex;
@@ -36,7 +36,7 @@
     display: none;
   }
   .header-menu {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
   .header-menu img {
     width: 40px;

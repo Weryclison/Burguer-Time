@@ -1,0 +1,55 @@
+.historia {
+  padding-top: 80px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.historia h2 {
+  padding-bottom: 24px;
+  padding-left: 20px;
+}
+
+.chef {
+  display: none;
+}
+.historia p {
+  padding-bottom: 32px;
+  padding-left: 28px;
+  position: relative;
+}
+.historia p::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 4px;
+  background-color: var(--cor-p2);
+  top: 10px;
+  left: 8px;
+}
+@media (max-width: 800px) {
+  .historia {
+    padding-top: 40px;
+    grid-template-columns: 1fr;
+  }
+  .historia-img {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .chef {
+    display: initial;
+    text-align: center;
+  }
+
+  .historia h2 {
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  .historia p {
+    padding-bottom: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .historia-img img {
+    max-height: 300px;
+  }
+}
