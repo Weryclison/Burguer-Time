@@ -1,0 +1,61 @@
+.gosto {
+  padding-top: 80px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+.monte {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas:
+    "img txt1"
+    "img txt2"
+    "img botao";
+}
+.monte .monte-img {
+  grid-area: img;
+}
+
+.txt1 {
+  grid-area: txt1;
+  padding-left: 32px;
+  padding-bottom: 24px;
+}
+.txt2 {
+  grid-area: txt2;
+  padding-left: 32px;
+  padding-bottom: 24px;
+}
+.monte .botao {
+  grid-area: botao;
+  margin-left: 32px;
+}
+
+@media (max-width: 800px) {
+  .monte {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "txt1"
+      "txt2"
+      "img"
+      "botao";
+  }
+  .monte-img {
+    margin: 0 auto;
+    max-width: 400px;
+    padding-bottom: 30px;
+  }
+  .gosto {
+    padding-top: 40px;
+    padding-bottom: 16px;
+  }
+  .monte p {
+    padding-bottom: 12px;
+    padding-left: 0px;
+  }
+  .monte .botao {
+    justify-self: center;
+    margin-left: initial;
+  }
+}
