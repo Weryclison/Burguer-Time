@@ -1,0 +1,32 @@
+.footer-bg {
+  background-color: var(--cor-12);
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: var(--cor-12);
+  gap: 40px;
+  padding-bottom: 120px;
+  padding-top: 40px;
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+.footer p {
+  padding-bottom: 12px;
+}
+.rodape {
+  background-color: var(--cor-12);
+  text-align: center;
+  padding: 10px 0;
+}
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}

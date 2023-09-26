@@ -1,0 +1,98 @@
+.font-1-g {
+  font-family: Staatliches;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-1-m {
+  font-family: Staatliches;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-1-p {
+  font-family: Staatliches;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.font-2-g {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.font-2-m {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.font-2-p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.font-2-pp {
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+@media (max-width: 800px) {
+  .font-1-g {
+    font-family: Staatliches;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .font-1-m {
+    font-family: Staatliches;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .font-2-g {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .font-2-m {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+  }
+  .font-2-p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .font-2-pp {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .font-1-p {
+    font-family: Staatliches;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .font-2-pp {
+    font-family: Roboto;
+    font-size: 12px;
+
+    font-weight: 400;
+    line-height: 15px;
+  }
+}

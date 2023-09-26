@@ -1,0 +1,60 @@
+.introducao-bg {
+  background-image: url(../../img/burguer-fundo-inteiro.svg);
+}
+.introducao {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding-bottom: 160px;
+}
+.introducao-historia {
+  display: grid;
+  grid-column: 2/7;
+}
+.introducao-cardapio {
+  display: grid;
+  grid-column: 8/-1;
+}
+.introducao-cardapio h2 {
+  margin-bottom: 16px;
+}
+.introducao-historia h2 {
+  margin-bottom: 16px;
+}
+
+.introducao-historia span {
+  margin-bottom: 32px;
+}
+.introducao-cardapio span {
+  margin-bottom: 32px;
+}
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .introducao-cardapio,
+  .introducao-historia {
+    grid-column: initial;
+  }
+  .introducao-cardapio h2 {
+    margin-bottom: 8px;
+  }
+  .introducao-historia h2 {
+    margin-bottom: 8px;
+  }
+  .introducao-historia span {
+    margin-bottom: 16px;
+  }
+  .introducao-cardapio span {
+    margin-bottom: 16px;
+  }
+  .introducao .botao {
+    justify-self: center;
+  }
+  #a {
+    margin-bottom: 40px;
+  }
+}

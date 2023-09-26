@@ -1,0 +1,13 @@
+@import "../css/utilidades/componentes.css";
+@import "../css/utilidades/cores.css";
+@import "../css/utilidades/tipografia.css";
+
+@import "../css/global/global.css";
+@import "../css/global/header.css";
+@import "../css/global/footer.css";
+
+@import "../css/home/introducao.css";
+@import "../css/home/delivery.css";
+@import "../css/home/localizacao.css";
+@import "../css/home/personalizavel.css";
+@import "../css/home/perguntas.css";

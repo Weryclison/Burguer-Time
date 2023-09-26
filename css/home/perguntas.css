@@ -1,0 +1,61 @@
+.perguntas {
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+.perguntas h2 {
+  text-align: center;
+}
+.perguntas dt {
+  padding-top: 20px;
+}
+.perguntas dl > div {
+  padding-bottom: 24px;
+  border-radius: 4px;
+  padding-left: 72px;
+  position: relative;
+}
+.perguntas dl > div::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 8px;
+  background-color: var(--cor-p2);
+  left: 0;
+  top: 25px;
+}
+
+.perguntas dl > div::after {
+  content: "";
+  position: absolute;
+  background-image: url(../../img/aba-pergunta.svg);
+  width: 14px;
+  height: 5px;
+  top: 25px;
+  right: 16px;
+}
+
+.perguntas dl > div:nth-child(odd) {
+  background-color: var(--cor-2);
+}
+
+@media (max-width: 800px) {
+  .perguntas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .perguntas dt {
+    padding-bottom: 8px;
+  }
+  .perguntas dt,
+  dd {
+    padding-right: 40px;
+  }
+  .perguntas dl > div {
+    padding-bottom: 12px;
+    padding-left: 20px;
+  }
+  .perguntas dl > div::before {
+    width: 10px;
+    height: 4px;
+  }
+}

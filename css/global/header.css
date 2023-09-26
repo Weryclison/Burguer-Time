@@ -1,0 +1,47 @@
+.header-bg {
+  background-image: url(../../img/burguer-inicial-g.png);
+
+  align-items: center;
+}
+.header img {
+  height: min-content;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+
+  margin-bottom: 80px;
+}
+.header ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+.header h1 {
+  text-align: center;
+  padding-bottom: 140px;
+}
+@media (max-width: 800px) {
+  .header-bg::after {
+    content: "";
+    width: 28px;
+    height: 26px;
+    position: absolute;
+    background-image: url(../../img/icone-menu.svg);
+    top: 24px;
+    right: 40px;
+  }
+  .header nav {
+    display: none;
+  }
+  .header-menu {
+    margin-bottom: 60px;
+  }
+  .header-menu img {
+    width: 40px;
+  }
+  .header h1 {
+    padding-bottom: 80px;
+  }
+}

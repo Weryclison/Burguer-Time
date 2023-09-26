@@ -1,0 +1,28 @@
+.localizacao {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 40px;
+}
+.localizacao h2 {
+  text-align: center;
+  grid-column: 1/-1;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.localizacao img {
+  margin: 0 auto;
+  max-height: 500px;
+}
+@media (max-width: 800px) {
+  .localizacao {
+    padding-bottom: 20px;
+  }
+  .localizacao h2 {
+    margin-bottom: 20px;
+  }
+  .localizacao img {
+    width: 560px;
+    height: 440px;
+    height: 100%;
+  }
+}
