@@ -18,11 +18,34 @@
   gap: 48px;
   list-style: none;
 }
+
 .header h1 {
   text-align: center;
   padding-bottom: 140px;
 }
 @media (max-width: 800px) {
+  .header-menu {
+    margin-bottom: 30px;
+    padding-top: 12px;
+  }
+  .header-menu img {
+    width: 40px;
+  }
+  .header li {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+
+  .header h1 {
+    padding-bottom: 80px;
+  }
+  .header ul {
+    padding-top: 8px;
+    gap: 8px;
+  }
+}
+@media (max-width: 350px) {
   .header-bg::after {
     content: "";
     width: 28px;
@@ -32,16 +55,7 @@
     top: 24px;
     right: 40px;
   }
-  .header nav {
+  nav {
     display: none;
-  }
-  .header-menu {
-    margin-bottom: 30px;
-  }
-  .header-menu img {
-    width: 40px;
-  }
-  .header h1 {
-    padding-bottom: 80px;
   }
 }
