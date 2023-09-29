@@ -10,18 +10,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logo-g.svg" type="image/x-icon">
 </head>
 
 <body>
   <header class="header-bg">
     <div class="header container">
       <div class="header-menu">
-        <img src="img/logo-g.svg" alt="Logo">
+        <a href="./index.html"><img src="img/logo-g.svg" alt="Logo"></a>
+
         <nav>
           <ul class="header-menu font-2-g cor-0">
-            <li>Cardápio</li>
-            <li>Delivery</li>
-            <li>Contato</li>
+            <a href="./monte-voce-mesmo.html">
+              <li>Cardápio</li>
+            </a>
+            <a href="#delivery">
+              <li>Delivery</li>
+            </a>
+            <a href="#contato">
+              <li>Contato</li>
+            </a>
           </ul>
         </nav>
       </div>
@@ -42,7 +50,7 @@
       </div>
     </div>
   </article>
-  <article class="delivery container">
+  <article id="delivery" class="delivery container">
 
     <div class="delivery-img">
       <img src="./img/burguer-delivery-g.png" alt="Hamburguer">
@@ -101,7 +109,7 @@
       </div>
     </dl>
   </section>
-  <footer class="footer-bg ">
+  <footer id="contato" class="footer-bg ">
     <div class="footer container">
       <div>
         <h3 class="font-1-p cor-0">contatos</h3>
