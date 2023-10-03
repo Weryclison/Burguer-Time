@@ -11,6 +11,6 @@
 @import "../css/home/localizacao.css";
 @import "../css/home/personalizavel.css";
 @import "../css/home/perguntas.css";
-
+@import "./global/animacao.css";
 @import "../css/historia/historia.css";
 @import "../css/montevoce/montevoce.css";

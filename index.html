@@ -6,11 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Hamburgueria em Treze de Maio,Haburgueres personálizaveis,Burguer Delivery,Fast Foods">
   <title>Burguer Time</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preload" href="./css/style.min.css">
+  <link rel="stylesheet" href="./css/style.min.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Staatliches&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="img/logo-g.svg" type="image/x-icon">
+  <link rel=" icon" href="img/logo-g.svg" type="image/x-icon">
+
 </head>
 
 <body>
@@ -21,19 +24,19 @@
 
         <nav>
           <ul class="header-menu font-2-g cor-0">
-            <a href="./monte-voce-mesmo.html">
-              <li>Cardápio</li>
-            </a>
-            <a href="#delivery">
-              <li>Delivery</li>
-            </a>
-            <a href="#contato">
-              <li>Contato</li>
-            </a>
+
+            <li> <a href="./monte-voce-mesmo.html">Cardápio </a></li>
+
+
+            <li><a href="./historia.html">História </a></li>
+
+
+            <li><a href="#contato">Contato </a></li>
+
           </ul>
         </nav>
       </div>
-      <h1 class="font-1-g cor-1">O tempo passa, o <span class="cor-p1">sabor</span> fica.</h1>
+      <h1 class="font-1-g cor-1 fadeInDown  ">O tempo passa, o <span class="cor-p1">sabor</span> fica.</h1>
     </div>
   </header>
   <article class="introducao-bg">
@@ -41,19 +44,19 @@
       <div class="introducao-historia">
         <h2 class="font-1-m cor-p5">Nossa historia</h2>
         <span class="font-2-m cor-7">O tempo é ingrediente secreto do hambúrguer perfeito.</span>
-        <a class="botao" id="a" href="./historia.html">Clique aqui</a>
+        <a class="botao" id="a" href="./historia.html">História</a>
       </div>
       <div class="introducao-cardapio">
-        <h2 class="font-1-m cor-p5">Nosso Cardápio</h2>
+        <h2 class="font-1-m cor-p5 ">Nosso Cardápio</h2>
         <span class="font-2-m cor-7">Experimente os nossos hambúrgueres e descubra o sabor do nosso cardápio.</span>
-        <a class="botao" href="./monte-voce-mesmo.html">Clique aqui</a>
+        <a class="botao" href="./monte-voce-mesmo.html">Cardápio</a>
       </div>
     </div>
   </article>
   <article id="delivery" class="delivery container">
 
     <div class="delivery-img">
-      <img src="./img/burguer-delivery-g.png" alt="Hamburguer">
+      <img src="./img/burguer-delivery-g.webp" alt="Hamburguer">
     </div>
     <div class="delivery-conteudo">
       <h2 class="font-1-m cor-p5">Peça nosso delivery</h2>
@@ -70,10 +73,10 @@
         <span class="font-2-m cor-7">Faça do seu jeito</span>
 
         <p class="font-2-m">Você monta o seu hambúrguer com os ingredientes que quiser. Opções de pão, carne, queijo, molho e complemento. São mais de 1000 combinações possíveis de hambúrgueres diferentes!</p>
-        <a class="botao" href="">Ver mais sobre</a>
+        <a class="botao" href="./monte-voce-mesmo.html">Ver mais sobre</a>
       </div>
       <div class="personalizavel-img">
-        <img src="./img/burguer-personalizavel-g.png" alt="varios hamburgueres diferentes">
+        <img src="./img/burguer-personalizavel-g.webp" alt="varios hamburgueres diferentes">
       </div>
 
     </div>
@@ -81,30 +84,34 @@
 
   <section class="localizacao container">
     <h2 class="font-1-m cor-p5">nossa localização</h2>
-    <img src="./img/localizacao-g.png" alt="Localização">
+    <img src="./img/localizacao-g.webp" alt="Localização">
   </section>
+
+
+
   <section class="perguntas container">
     <h2 class="font-1-m cor-p5">Perguntas Frequentes</h2>
     <dl>
       <div>
-        <dt class="font-2-g cor-11">Como funciona o hambúrguer personalizável?</dt>
-        <dd class="font-2-p cor-9">Você monta o seu hambúrguer com os ingredientes que quiser.</dd>
+        <dt><button class="font-2-g cor-11 " aria-controls="pergunta1" aria-expanded="true">Como funciona o hambúrguer personalizável?</button></dt>
+        <dd id="pergunta1" class="font-2-p cor-9  ativa">Você monta o seu hambúrguer com os ingredientes que quiser.</dd>
       </div>
 
       <div>
-        <dt class="font-2-g cor-11">Quais são as formas de pagamento aceitas?</dt>
-        <dd class="font-2-p cor-9">Aceitamos dinheiro, cartão, vale-refeição e PIX. Você paga na hora.</dd>
+        <dt><button class="font-2-g cor-11" aria-controls="pergunta2" aria-expanded="false">Quais são as formas de pagamento aceitas?</button></dt>
+        <dd id="pergunta2" class="font-2-p cor-9 ">Aceitamos dinheiro, cartão, vale-refeição e PIX. Você paga na hora.</dd>
       </div>
       <div>
-        <dt class="font-2-g cor-11">Vocês têm opções vegetarianas ou veganas?</dt>
-        <dd class="font-2-p cor-9">Sim, temos. Temos hambúrgueres vegetais e queijos vegetais. Você personaliza o seu.</dd>
+        <dt><button class="font-2-g cor-11" aria-controls="pergunta3" aria-expanded="false">Vocês têm opções vegetarianas ou veganas?</button></dt>
+        <dd id="pergunta3" class="font-2-p cor-9">Sim, temos. Temos hambúrgueres vegetais e queijos vegetais. Você personaliza o seu.</dd>
       </div>
       <div>
-        <dt class="font-2-g cor-11">Quais são os horários de funcionamento e de entrega?</dt>
-        <dd class="font-2-p cor-9"></dd>
+        <dt><button class="font-2-g cor-11" aria-controls="pergunta4" aria-expanded="false">Quais são os horários de funcionamento e de entrega?</button></dt>
+        <dd id="pergunta4" class="font-2-p cor-9">Sextas-feiras à noite.</dd>
       </div>
       <div>
-        <dt class="font-2-g cor-11">Quais são as medidas de segurança e higiene que vocês adotam?</dt>
+        <dt><button class="font-2-g cor-11" aria-controls="pergunta5" aria-expanded="false">Quais são as medidas de segurança e higiene que vocês adotam?</button></dt>
+        <dd id="pergunta5" class="font-2-p cor-9">Tomamos banho,todo dia.</dd>
 
       </div>
     </dl>
@@ -113,7 +120,10 @@
     <div class="footer container">
       <div>
         <h3 class="font-1-p cor-0">contatos</h3>
-        <P class="font-2-pp cor-3">WhatsApp: 99 99999-9999</P>
+        <a href="https://whatsa.me/554896561838/?t=oi%20weryclison,vim%20pelo%20site">
+          <P class="font-2-pp cor-0">WhatsApp</P>
+        </a>
+
       </div>
       <div>
         <h3 class="font-1-p cor-0">endereço</h3>
@@ -131,7 +141,7 @@
           <li><a href="./">Cardápio</a></li>
           <li><a href="./">Personálizavel</a></li>
           <li><a href="./ ">Delivery</a></li>
-          <li><a href="./">Termos e Condições</a></li>
+          <li><a href="https://weryclison.github.io/weryportfolio.github.io/">Termos e Condições</a></li>
         </ul>
       </div>
     </div>
@@ -141,7 +151,7 @@
   </section>
 
 
-
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
