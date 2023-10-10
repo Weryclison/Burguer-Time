@@ -1,5 +1,7 @@
 .introducao-bg {
   background-image: url(../../img/burguer-fundo-inteiro.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 .introducao {
   padding-top: 80px;

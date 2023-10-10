@@ -1,5 +1,6 @@
 .header-bg {
   background-image: url(../../img/burguer-inicial-g.webp);
+  background-position-x: center;
 
   align-items: center;
 }
